@@ -11,16 +11,8 @@ export class HomePage {
   username:string;
   password:string;
 
-  constructor(public navCtrl: NavController) {
-
-  }
-
   login() {
     console.log("Username: "+ this.username);
     console.log("Password: "+ this.password);
-  }
-
-  goRegister() {
-    
   }
 }
