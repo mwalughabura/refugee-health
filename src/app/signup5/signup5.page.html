@@ -1,16 +1,28 @@
 <ion-content padding center text-center>
-  <ion-img src="/assets/refugeehealth.png"></ion-img>
-  <ion-title class="title">Sign Up</ion-title>
-  <ion-item>
-    <ion-input type="radio" name="occupation" value="doctor">Doctor <br>
-  </ion-item>
-  <ion-item>
-    <ion-input type="radio" name="occupation" value="patient">Patient <br>
-  </ion-item>
-  <ion-item>
-    <ion-input type="radio" name="occupation" value="patient">Health Practitioner <br>
-  </ion-item>
+    <ion-img src="/assets/refugeehealth.png"></ion-img>
+    <ion-list>
+        <ion-radio-group>
+          <ion-list-header>
+            <ion-label>Occupation</ion-label>
+          </ion-list-header>
+      
+          <ion-item>
+            <ion-label>Doctor</ion-label>
+            <ion-radio slot="start" value="doctor" checked></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Patient</ion-label>
+            <ion-radio slot="start" value="patient"></ion-radio>
+          </ion-item>
+      
+          <ion-item>
+            <ion-label>Health Practitioner</ion-label>
+            <ion-radio slot="start" value="practitioner"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
 
-  <ion-button full round color="light" (click)="login()" href="/signup4">Back</ion-button> 
-  <ion-button full round (click)="goRegister()" href="">Next</ion-button>
+  <ion-button full round color="light" href="/signup4">Back</ion-button> 
+  <ion-button full round>Finish</ion-button>
 </ion-content>
