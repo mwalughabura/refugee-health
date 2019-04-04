@@ -12,4 +12,12 @@ export class Signup2Page implements OnInit {
   ngOnInit() {
   }
 
+  identity:string;
+  location:string;
+
+  login() {
+    console.log("Username: "+ this.identity);
+    console.log("Password: "+ this.location);
+  }
+
 }
