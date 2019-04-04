@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'signup2', loadChildren: './signup2/signup2.module#Signup2PageModule' },
   { path: 'signup3', loadChildren: './signup3/signup3.module#Signup3PageModule' },
   { path: 'signup4', loadChildren: './signup4/signup4.module#Signup4PageModule' },
-  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' }
+  { path: 'category', loadChildren: './category/category.module#CategoryPageModule' }
 
 ];
 
