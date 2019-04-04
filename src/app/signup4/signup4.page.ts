@@ -12,4 +12,12 @@ export class Signup4Page implements OnInit {
   ngOnInit() {
   }
 
+  password:string;
+  confirmpassword:string;
+
+  login() {
+    console.log("Username: "+ this.password);
+    console.log("Password: "+ this.confirmpassword);
+  }
+
 }
