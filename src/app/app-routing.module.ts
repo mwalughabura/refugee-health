@@ -18,7 +18,6 @@ const routes: Routes = [
   { path: 'signup1', loadChildren: './signup1/signup1.module#Signup1PageModule' },
   { path: 'picture', loadChildren: './picture/picture.module#PicturePageModule' },
   { path: 'signup1', loadChildren: './signup1/signup1.module#Signup1PageModule' },
-  { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
   { path: 'signup2', loadChildren: './signup2/signup2.module#Signup2PageModule' },
   { path: 'signup3', loadChildren: './signup3/signup3.module#Signup3PageModule' },
   { path: 'signup4', loadChildren: './signup4/signup4.module#Signup4PageModule' }
