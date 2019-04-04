@@ -1,9 +1,12 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>signup3</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content padding center text-center>
+  <ion-img src="/assets/refugeehealth.png"></ion-img>
+  <ion-title class="title">Sign Up</ion-title>
+  <ion-item>
+    <ion-input placeholder="Photo" type="image" [(ngModel)]="identity"></ion-input>
+  </ion-item>
 
-<ion-content>
-
+  <ion-button full round color="light" (click)="login()" href="">Take</ion-button> 
+  <ion-button full round (click)="goRegister()" href="">Upload</ion-button> <br>
+  <ion-button full round color="light" (click)="login()" href="/signup2">Back</ion-button> 
+  <ion-button full round (click)="goRegister()" href="/signup4">Next</ion-button>
 </ion-content>
