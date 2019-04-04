@@ -1,0 +1,13 @@
+<ion-content padding center text-center>
+  <ion-img src="/assets/refugeehealth.png"></ion-img>
+  <ion-title class="title">Sign Up</ion-title>
+  <ion-item>
+    <ion-input placeholder="ID" [(ngModel)]="identity"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input placeholder="Location" type="text" [(ngModel)]="location"></ion-input>
+  </ion-item>
+
+  <ion-button full round color="light" (click)="login()" href="/signup1">Back</ion-button> 
+  <ion-button full round (click)="goRegister()" href="/signup3">Next</ion-button>
+</ion-content>

@@ -2,13 +2,13 @@
   <ion-img src="/assets/refugeehealth.png"></ion-img>
   <ion-title class="title">Sign Up</ion-title>
   <ion-item>
-    <ion-input placeholder="Username" [(ngModel)]="username"></ion-input>
+    <ion-input placeholder="Full Names" [(ngModel)]="fullname"></ion-input>
   </ion-item>
   <ion-item>
-    <ion-input placeholder="Password" type="Password" [(ngModel)]="password"></ion-input>
+    <ion-input placeholder="Phone number" type="tel" [(ngModel)]="phone"></ion-input>
   </ion-item>
 
   <ion-button full round color="light" (click)="login()" href="/home">Log In</ion-button> 
-  <ion-button full round (click)="goRegister()">Next</ion-button>
+  <ion-button full round (click)="goRegister()" href="/signup2">Next</ion-button>
 </ion-content>
   
