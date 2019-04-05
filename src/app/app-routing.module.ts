@@ -24,7 +24,8 @@ const routes: Routes = [
   { path: 'audio', loadChildren: './audio/audio.module#AudioPageModule' },
   { path: 'signup4', loadChildren: './signup4/signup4.module#Signup4PageModule' },
   { path: 'category', loadChildren: './category/category.module#CategoryPageModule' },
-  { path: 'signup5', loadChildren: './signup5/signup5.module#Signup5PageModule' }
+  { path: 'signup5', loadChildren: './signup5/signup5.module#Signup5PageModule' },  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' }
+
 
 
 ];
