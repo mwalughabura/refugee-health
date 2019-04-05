@@ -1,9 +1,17 @@
-ion-content {
-    margin: 5vh;
-    padding-right: 15vh !important;
-}
-
 ion-avatar {
     height: 20vh;
     width: 17vh;
+}
+
+ion-button {
+    color: white;
+    margin: 5vh;
+}
+
+.avatar {
+    margin: auto;
+}
+
+ion-content p {
+    margin: 5vh;
 }
