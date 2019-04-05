@@ -26,8 +26,13 @@ export class AppComponent {
       icon: 'calendar'
     },
     {
+      title: 'Chat',
+      url: '/chat',
+      icon: 'chatboxes'
+    },
+    {
       title: 'First Aids',
-      url: '/appointments',
+      url: '/list',
       icon: 'medkit'
     },
     {
