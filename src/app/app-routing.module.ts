@@ -26,7 +26,9 @@ const routes: Routes = [
   { path: 'category', loadChildren: './category/category.module#CategoryPageModule' },
   { path: 'signup5', loadChildren: './signup5/signup5.module#Signup5PageModule' },  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
   { path: 'location', loadChildren: './location/location.module#LocationPageModule' },
-  { path: 'reports', loadChildren: './reports/reports.module#ReportsPageModule' }
+  { path: 'reports', loadChildren: './reports/reports.module#ReportsPageModule' },
+  { path: 'appointment', loadChildren: './appointment/appointment.module#AppointmentPageModule' },
+  { path: 'appointments', loadChildren: './appointments/appointments.module#AppointmentsPageModule' }
 
 
 
