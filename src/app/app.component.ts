@@ -36,6 +36,11 @@ export class AppComponent {
       icon: 'medkit'
     },
     {
+      title: 'Location',
+      url: '/maps',
+      icon: 'maps'
+    },
+    {
       title: 'Log Out',
       url: '/home',
       icon: 'log-out'

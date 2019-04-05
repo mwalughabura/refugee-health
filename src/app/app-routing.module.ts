@@ -30,7 +30,8 @@ const routes: Routes = [
   { path: 'appointment', loadChildren: './appointment/appointment.module#AppointmentPageModule' },
   { path: 'appointments', loadChildren: './appointments/appointments.module#AppointmentsPageModule' },
   { path: 'chat', loadChildren: './chat/chat.module#ChatPageModule' },
-  { path: 'firstaid', loadChildren: './firstaid/firstaid.module#FirstaidPageModule' }
+  { path: 'firstaid', loadChildren: './firstaid/firstaid.module#FirstaidPageModule' },
+  { path: 'maps', loadChildren: './maps/maps.module#MapsPageModule' }
 
 
 
