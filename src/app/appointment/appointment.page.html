@@ -1,9 +1,31 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>appointment</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Appointment
+    </ion-title>
   </ion-toolbar>
 </ion-header>
+  
+<ion-content padding>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="/assets/avatar.jpg">
+    </ion-avatar>
+    <ion-label>Jane Doe</ion-label>
+  </ion-item>
+  <ion-text>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</ion-text>
 
-<ion-content>
+  <ion-button class="full">Confirm</ion-button>
+  <ion-button color="secondary" style="color: white !important;" class="full">Add to Google Calendar</ion-button>
 
-</ion-content>
+  <!-- fab placed to the bottom end -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="menu" style="color:white;"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+    
+</ion-content>  
