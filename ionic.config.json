@@ -1,5 +1,7 @@
 {
   "name": "refugee-health",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
