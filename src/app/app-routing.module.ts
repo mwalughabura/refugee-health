@@ -29,7 +29,8 @@ const routes: Routes = [
   { path: 'reports', loadChildren: './reports/reports.module#ReportsPageModule' },
   { path: 'appointment', loadChildren: './appointment/appointment.module#AppointmentPageModule' },
   { path: 'appointments', loadChildren: './appointments/appointments.module#AppointmentsPageModule' },
-  { path: 'chat', loadChildren: './chat/chat.module#ChatPageModule' }
+  { path: 'chat', loadChildren: './chat/chat.module#ChatPageModule' },
+  { path: 'firstaid', loadChildren: './firstaid/firstaid.module#FirstaidPageModule' }
 
 
 
