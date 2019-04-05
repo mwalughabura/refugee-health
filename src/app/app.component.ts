@@ -38,7 +38,7 @@ export class AppComponent {
     {
       title: 'Location',
       url: '/maps',
-      icon: 'maps'
+      icon: 'map'
     },
     {
       title: 'Log Out',
